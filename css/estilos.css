@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(28, 28, 28);
+}
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 400px;
+    height: auto;
+    margin: 10px;
+}
+.logo img{
+    width: 150px;
+    height: auto;
+    padding:5px;
+}
+
+.lista ul{
+    list-style: none;
+
+}
+.lista ul li{
+    display: inline-block;
+    padding: 40px;
+   
+}
+.lista ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.lista ul li a:hover{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px ;
+}
+
+.contenedor01{
+    margin: 10px;
+    background-color: rgb(66, 121, 203);
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor02{
+    margin: 10px;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagen01 img{
+    width: 500px;
+    height: auto;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.imagen02 img{
+    width: 500px;
+    height: auto;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.texto01{
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(37, 37, 37);
+}
+.texto01 h2{
+    text-align: center;
+}
+.texto02 h2{
+    text-align: center;
+}
+.texto01 p {
+    font-size: 40px;
+}
+.texto02 p {
+    font-size: 40px;
+}
+.texto02{
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(37, 37, 37);
+}
+.pie {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    border-radius: 10px;
+    position: relative;
+}
+.textopie{
+    padding: 10px;
+}
+.contactos{
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

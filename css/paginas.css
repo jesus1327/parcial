@@ -1,0 +1,125 @@
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 400px;
+    height: auto;
+    margin: 10px;
+}
+.logo img{
+    width: 150px;
+    height: auto;
+    padding:5px;
+}
+
+.lista ul{
+    list-style: none;
+
+}
+.lista ul li{
+    display: inline-block;
+    padding: 40px;
+   
+}
+.lista ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.lista ul li a:hover{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px ;
+}
+.pie {
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    border-radius: 10px;
+    position: relative;
+}
+.textopie{
+    padding: 10px;
+}
+.contactos{
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.dpelotas{
+    display: flex;
+    justify-content: space-between;
+}
+.con01 img{
+    padding: 50px;
+    width: 200px;
+    height:auto;
+    
+}
+.con01 h3{
+    text-align: center;
+    font-size: 40px;
+}
+.con01{
+    width: 300px;
+    height: auto;
+    padding: 100px;
+    background-color: bisque;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.dcontacto  {
+    display: flex;
+    justify-content: space-between;
+}
+.con02 h3{
+    text-align: center;
+    font-size: 40px;
+}
+.con02{
+    width: 400px;
+    height: auto;
+    padding: 200px;
+    margin: 5px;
+    background-color: rgb(156, 204, 224);
+    border-radius: 10px;
+}
+.con02 img{
+    padding: 0px;
+    width: 400px;
+    height:auto;
+    
+}
+
+.dcuerpo{
+    display: flex;
+    justify-content: space-between;
+}
+.con03{
+    padding: 100px;
+    background-color: darkseagreen;
+    width: 500px;
+    height: auto;
+    margin: 5px;
+    border-radius: 10px;
+}
+.con03 img{
+    width: 300px;
+    height: auto;
+    padding: 100px;
+}
+.con03 h3{
+    text-align: center;
+    font-size: 40px;
+}
